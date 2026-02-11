@@ -21,15 +21,15 @@ cd YOUR_REPO_NAME
 python -m venv venv
 
 # Activate it
-# On Windows:
+## On Windows:
 venv\Scripts\activate
-# On Mac/Linux:
+## On Mac/Linux:
 source venv/bin/activate
 
-## Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-## Configure your .env file
+# Configure your .env file
 1. Create a .env file
 2. Click here https://support.google.com/googleapi/answer/6158862?hl=en to learn how to set up a google api key to run agent.
 3. Enter your Google Api Key into the file (possibly) in this format:
