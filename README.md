@@ -6,6 +6,8 @@ A simple text-based chat-bot agent that can take in user input, respond to user 
 * **Multi-Model Support:** Powered by `litellm` to connect to OpenAI, Anthropic, or local LLMs.
 * **Interactive UI:** Built with `streamlit` for a smooth user experience.
 * **Google Integration:** Uses `google-generativeai` for advanced reasoning.
+* **Secure Config:** Managed via `python-dotenv` to keep API keys safe and out of source control.
+
 
 ##  Setup Instructions
 
