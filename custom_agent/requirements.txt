@@ -2,3 +2,5 @@ google-adk
 litellm
 python-dotenv
 streamlit
+google-generativeai
+
