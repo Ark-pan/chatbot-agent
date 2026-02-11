@@ -34,6 +34,6 @@ pip install -r requirements.txt
 2. Click here https://support.google.com/googleapi/answer/6158862?hl=en to learn how to set up a google api key to run agent.
 3. Enter your Google Api Key into the file (possibly) in this format:
   GOOGLE_API_KEY=your_key_here
-# Add any other keys required by LiteLLM
+4. Add any other keys required by LiteLLM (Look at the documentation of your model provider for how to get api keys from that specific provider)
 
 
