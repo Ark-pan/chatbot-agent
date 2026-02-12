@@ -29,7 +29,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Interaction Logic
-if prompt := st.chat_input("What can I do for you today?..."):
+if prompt := st.chat_input("Type here..."):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
@@ -54,3 +54,4 @@ if prompt := st.chat_input("What can I do for you today?..."):
         except Exception as e:
 
             st.error(f"Error: {e}")
+
